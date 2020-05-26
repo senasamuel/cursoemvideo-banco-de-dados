@@ -1,0 +1,21 @@
+
+ #foi feito o primeiro banco de dados cadastro #
+create database cadastro;
+
+# para entrar no banco de dados #
+use cadastro;
+# primeira tabela #
+create table pessoas (
+    nome varchar(30), 
+    idade tinyint(3),
+    sexo char(3), 
+    peso float,
+    altura float, 
+    nacionalidade varchar(20) 
+    );
+
+    # descrever o banco de dados#
+    
+    describe pessoas;
+
+ 
